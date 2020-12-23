@@ -1,0 +1,92 @@
+#this is a file conataining basic git property of git 
+
+#command :
+1. git config --global user.name "name"
+	--to add user name--
+2. git config --global user.email "user email"
+	--to add user email--
+3. git config --global core.editor "name"
+	--to config core editor--
+4. git config user.name
+	--to see user name--
+5. git config user.email
+	--to see user mail--
+6. git status
+	--to check a git repository--
+7. git init
+	--to add a blank repository--
+8. git add --a
+	--to add all file in staging area--
+9. git commit -m "messeage"
+	--to commit with just a message--
+10. git log
+	--to see commit--
+11. rm -rf .git
+	--to delete git repository--
+12. git clone "url"
+	--to clone a url--
+13. git clone "url" "name"
+	--to give a name clone folder--
+14. ls
+	--to list content--
+15. cd
+	--to change directory--
+16. touch error.log
+	--to create a error.log file in git repository
+17. touch .gitignore
+	--to crete a ignore container file--
+***
+if I text "*.log" in git ignore 
+	--git will ignore all log file
+if I want to ignore directory 
+	--we have to put "dir/" in .ignore file
+18. git diff
+	--comparing working directory to staging area--
+19. git diff --stage
+	--comparing previous commit to staging area
+20. git commit -a -m "direct commit"
+	--to skip the staging area
+21. git rm <file name>
+	--to remove a file--
+22. git mv <first text>  <second text>
+	--to rename first text to second text--
+23. git rm --cached
+	--to untrack file--
+24. git log -p
+	--to to see the add or remove section in commit--
+25. git log -p -n
+	--to see multiple ' n ' no of add or remove section--
+26. git log --stat
+	--to see the static data--
+27. git log --pretty=oneline
+	--to see all commit in one line--
+28. git log --pretty=short
+	--to see all commit in short--
+29. git log --since =2.days
+	--to see previous 2 days log--
+***
+git scm useful options for git.log
+
+	--it is the useful url that willhelp you to discover more about git
+***
+30. git log --pretty = format:"%h --%an"
+	--to get some short details for author--
+31. git commit --amend
+	--to change the commit--
+	.
+	.
+	.
+	.
+now if any server open then 
+1. press i for insert
+2. add something to commit
+3. press escape button
+4. press " : "
+5.type "wq"
+
+32. git restore --stage <file name>
+	--to unstage a file--
+33. git checkout --<file name>
+	--to restore previous version--
+34. git checkout -f
+	
